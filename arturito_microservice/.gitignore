@@ -1,0 +1,7 @@
+venv
+.vscode
+results.txt
+__pycache__
+Processing
+upload
+Results

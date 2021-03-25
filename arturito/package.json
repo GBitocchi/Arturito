@@ -1,0 +1,43 @@
+{
+	"name": "eeg_backend",
+	"version": "1.0.0",
+	"description": "Backend for EEG analyzer project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"server": "nodemon index.js",
+		"client": "npm start --prefix client",
+		"dev": "concurrently \"npm start server\" \"npm run client\"",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lromano97/eeg_backend.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lromano97/eeg_backend/issues"
+	},
+	"homepage": "https://github.com/lromano97/eeg_backend#readme",
+	"dependencies": {
+		"amqplib": "^0.5.4",
+		"aws-sdk": "^2.556.0",
+		"axios": "^0.19.0",
+		"bcrypt": "^3.0.6",
+		"body-parser": "^1.19.0",
+		"concurrently": "^5.0.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"express-validator": "^6.1.1",
+		"http": "0.0.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.6.7",
+		"morgan": "^1.9.1",
+		"multer": "^1.4.2",
+		"nodemon": "^1.19.4",
+		"python-shell": "^1.0.7",
+		"socket.io": "^2.3.0"
+	}
+}

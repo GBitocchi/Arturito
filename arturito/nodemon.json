@@ -1,0 +1,11 @@
+{
+	"env": {
+		"JWT": "secret",
+		"PORT": 8080,
+		"MONGODB_URI": "mongodb://localhost/arturito",
+		"ACCESS_KEY": "AKIAJH6F66SBCJO6WVPQ",
+		"SECRET_KEY": "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",
+		"S3_BUCKET": "arturitoproyectofinal",
+		"PYTHON_MICROSERVICE": "http://artproyfinal-env.7tppvggjyn.sa-east-1.elasticbeanstalk.com/notations"
+	}
+}

@@ -1,0 +1,67 @@
+.modal {
+    font-size: 12px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    text-align: left;
+    padding: 10px 60px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #e91e63;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+.button {
+    color: white;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+    border: none;
+    resize: none;
+}
+
+
+.textAreaDiv{
+    align-content: left;
+}
+
+.textArea{
+    width:83%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.rightIcon {
+    padding-left: 10px;
+}
